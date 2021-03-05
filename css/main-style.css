@@ -36,12 +36,16 @@ body{
     margin:0;
     padding: 0;
     font-family: var(--noto-sans);
+    overflow-x: hidden;
 }
 
-/* HEADER  */
+/* =================================================================================
+                                HEADER
+ ================================================================================= */
 
 .main__header{
     background-color: var(--bg-color);
+    margin-bottom: 120px;
 }
 
 .header{ 
@@ -88,6 +92,8 @@ body{
 }
 
 .caption{
+    font-family: var(--recoleta);
+    font-weight: 600;
     font-size: 48px;
     line-height: 65px;  
 }
@@ -98,4 +104,31 @@ body{
 }
 .human__image{
     display: block;
+}
+
+
+/* =================================================================================
+                                HR INFO
+ ================================================================================= */
+
+ .hr__info{
+    color: var(--li-color);
+ }
+ 
+ .hr__invitation{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 0 103px;
+ }
+.hr__text{
+    width: 390px;
+}
+
+.hr__company{
+    text-align: center;
+}
+
+.hr__company--image{
+    margin: 0 43px;
 }
