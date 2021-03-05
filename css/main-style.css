@@ -1,0 +1,38 @@
+/* FONT FAMIlY  */
+@font-face {
+    font-family: "Recoleta DEMO";
+    src: url("../fonts/Recoleta-RegularDEMO.woff2") format("woff2"),
+        url("Recoleta-RegularDEMO.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/noto-sans-v11-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+         url("../fonts/noto-sans-v11-latin-regular.woff") format("woff"), /* Modern Browsers */
+        }
+
+
+
+
+ /* Root  */
+:root{
+    /* TEXT COLORS  */
+    --bg-color: #163a24;
+    --text-green-color: #198c36;
+    --text-white-color: #fbfaf7;
+    --li-color: #163a24;
+    /* FONT FAMILY  */
+    --noto-sans: "Noto Sans", "Arial" , serif ;
+    --recoleta: "Recoleta DEMO", "Arial" , serif;
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+}
