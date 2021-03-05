@@ -35,4 +35,41 @@
 body{
     margin:0;
     padding: 0;
+    font-family: var(--noto-sans);
+}
+
+/* HEADER  */
+
+.main__header{
+    background-color: var(--bg-color);
+}
+
+.header{ 
+    padding: 20px 130px;
+}
+
+.sitenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sitenav__nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.sitenav__item{    
+    margin-left: 24px;
+}
+
+.sitenav__link{
+    color: var(--text-white-color);
+    text-decoration: none;
+}
+
+.sitenav__link--active{
+    background-color: var(--text-green-color);
+    padding: 15px 25px;
+    border-radius: 160px;
 }
