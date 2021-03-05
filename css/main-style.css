@@ -126,9 +126,10 @@ body{
 }
 
 .hr__company{
+    margin-top: 110px;
     text-align: center;
 }
 
 .hr__company--image{
-    margin: 0 43px;
+    margin: 0 43px 125px;
 }
