@@ -26,11 +26,16 @@
     --text-green-color: #198c36;
     --text-white-color: #fbfaf7;
     --li-color: #163a24;
+    --ebg--color: #f2efe6;
     /* FONT FAMILY  */
     --noto-sans: "Noto Sans", "Arial" , serif ;
     --recoleta: "Recoleta DEMO", "Arial" , serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     margin:0;
@@ -55,7 +60,7 @@ body{
 .sitenav{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .sitenav__nav{
@@ -133,3 +138,23 @@ body{
 .hr__company--image{
     margin: 0 43px 60px;
 }
+
+/* Hr Quality */
+
+.hr__quality{
+    background-color: var(--bg-color);
+    color: var(--text-white-color);
+    padding: 50px 100px 90px;
+    text-align: center;
+}
+.hr__caption{
+    margin-bottom: 60px;
+}
+.hr__highest--quality{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+/* Empolyee */
