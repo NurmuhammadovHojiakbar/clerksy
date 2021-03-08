@@ -158,3 +158,14 @@ body{
 }
 
 /* Empolyee */
+.employee{
+    background-color: var(--ebg--color);
+    padding: 50px 100px 90px;
+    text-align: center;
+}
+
+.employee__text{
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 27px;
+}
