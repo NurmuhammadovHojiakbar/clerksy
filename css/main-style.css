@@ -169,3 +169,10 @@ body{
     width: 60%;
     margin-bottom: 27px;
 }
+
+.employee__development{
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
