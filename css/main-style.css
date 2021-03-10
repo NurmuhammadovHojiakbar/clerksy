@@ -177,6 +177,10 @@ body{
     align-items: center;
 }
 
+.employee__development--text{
+    text-align: start;
+}
+
 
 /* ADVANTAGES  */
 
@@ -240,4 +244,23 @@ body{
     line-height: 2;
     margin-left: 20px;
     font-size: 0.8rem;
+}
+
+.help{
+    background-color: var(--ebg--color);
+    line-height: 20px;
+    padding: 80px;
+}
+.help--paragraph{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.book--button{
+    padding: 15px 25px;
+    background-color: var(--text-green-color);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: var(--text-white-color);
 }
