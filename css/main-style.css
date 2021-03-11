@@ -295,3 +295,55 @@ body{
     right: 0;
     bottom: 0;
 }
+
+/*=====================================================================================
+                                FOOTER
+=====================================================================================*/
+
+.send--email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 90px;
+    color: var(--bg-color);
+    background-color: var(--ebg--color);
+}
+
+.email--text{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.email--text h2{
+    margin-bottom: 25px;
+}
+
+.send--email form{
+    flex-basis: 50%;
+}
+
+.input--email{
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    box-sizing: border-box;
+    border-radius: 255px;
+    height: 50px;
+    width: 80%;
+    outline: none;
+    padding-left: 10px;
+}
+
+.input--btn{
+    background: #15762E;
+    border-radius: 160px;
+    color: var(--text-white-color);
+    padding: 16px 25px;
+    border: none;
+    position: relative;
+    right: 50px;
+}
+
+.label{
+    margin-top: 10px;
+}
