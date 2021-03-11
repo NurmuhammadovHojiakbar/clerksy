@@ -350,3 +350,34 @@ body{
 .label{
     margin-top: 10px;
 }
+
+.footer{
+    color: var(--bg-color);
+    padding: 30px 90px;
+}
+
+.footer--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 25px;
+}
+
+.footer--navbar{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-link{
+    display: flex;
+    list-style: none;
+}
+.footer--item{
+    margin-left: 14px;
+}
+.footer--item a, a{
+    text-decoration: none;
+    color: var(--text-green-color);
+}
