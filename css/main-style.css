@@ -266,3 +266,32 @@ body{
     outline: none;
     color: var(--text-white-color);
 }
+
+.advantages__footer{
+    position: relative;
+    background-color: var(--bg-color);
+    color: var(--text-white-color);
+    padding: 80px 20px;
+}
+.advantages__footer p{
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.call--btn{
+    background-color: #FAB5A0;
+    color: var(--bg-color);
+}
+
+.footer--flower{
+    position: absolute;
+}
+
+.flower--left{
+    left: 0;
+    bottom: 0;
+}
+.flower--right{
+    right: 0;
+    bottom: 0;
+}
