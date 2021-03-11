@@ -323,13 +323,16 @@ body{
     flex-basis: 50%;
 }
 
+.input--container{
+    display: flex;
+}
 .input--email{
     background: #FFFFFF;
     border: 1px solid #F2EFE6;
     box-sizing: border-box;
     border-radius: 255px;
     height: 50px;
-    width: 80%;
+    flex-grow: 1;
     outline: none;
     padding-left: 10px;
 }
