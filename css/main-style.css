@@ -478,8 +478,9 @@ body{
         align-items: center;
     }
     .interest__card{
-        width: 70vw;
+        width: 65vw;
         margin-left: 0;
+        margin-bottom: 30px;
     }
 
     .help{
