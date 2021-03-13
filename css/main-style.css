@@ -440,6 +440,9 @@ body{
         width: 50vw;
         height: 50%;
     }
+    .hr__text{
+        width: 80vw;
+    }
 
     .hr__quality{
         padding: 20px;
