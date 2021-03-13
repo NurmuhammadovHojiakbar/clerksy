@@ -391,6 +391,7 @@ body{
     body{
         width: 100vw;
         text-align: center;
+        overflow-x: hidden;
     }
 
 
@@ -474,6 +475,9 @@ body{
     .card__container{
         flex-direction: column;
         padding: 20px;
+    }
+    .interest__card{
+        width: 70vw;
     }
 
     .help{
