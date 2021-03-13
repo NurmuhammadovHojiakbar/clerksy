@@ -444,6 +444,10 @@ body{
         padding: 20px;
     }
 
+    .hr__paragraph{
+        width: 95%;
+    }
+
     .hr__highest--quality{
         flex-wrap: wrap;
     }
