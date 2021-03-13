@@ -430,6 +430,7 @@ body{
     .hr__invitation{
         padding: 0 40px;
         flex-direction: column;
+        margin: 0;
     }
 
     .hr__invitation--second{
