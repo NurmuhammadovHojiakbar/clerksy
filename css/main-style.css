@@ -381,3 +381,122 @@ body{
     text-decoration: none;
     color: var(--text-green-color);
 }
+
+
+/*============================================================================
+                                Responsive Mobile
+============================================================================*/
+
+@media (max-width: 600px){
+    body{
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    .header{
+        padding: 20px;
+    }
+    .sitenav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sitenav__nav{
+        flex-direction: column;
+    }
+
+    .sitenav__item{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .sitenav__link{
+        display: block;
+        background-color: var(--text-green-color);
+        padding: 15px 25px;
+        width: 70vw;
+        border-radius: 100px;
+    }
+    .bottom__header{
+        padding: 20px 20px 0;
+        flex-direction: column;
+    }
+    .human__image{
+        width: 90vw;
+        height: 80%;
+    }
+
+    /*==================================================================*/
+    .hr__invitation{
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .hr__invitation--second{
+        flex-direction: column-reverse;
+    }
+    .hr__image{
+        width: 50vw;
+        height: 50%;
+    }
+
+    .hr__quality{
+        padding: 20px;
+    }
+
+    .hr__highest--quality{
+        flex-wrap: wrap;
+    }
+
+    .employee{
+        padding: 20px;
+    }
+
+    .employee__text{
+        width: 80vw;
+    }
+
+    .employee img{
+        width: 80vw;
+    }
+
+    .employee__development{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .employee__development img{
+        width: 50vw;
+        height: 50%;
+    }
+    .employee__development--text{
+        text-align: center;
+    }
+
+    .card__container{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .help{
+        padding: 20px;
+    }
+    .help img{
+        width: 80vw;
+    }
+
+    .advantages__footer img{
+        width: 25%;
+    }
+    .send--email{
+        flex-direction: column;
+    }
+    .email--text{
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding: 40px;
+    }
+    .footer--navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
